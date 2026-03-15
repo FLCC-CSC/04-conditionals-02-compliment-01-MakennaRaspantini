@@ -17,15 +17,15 @@
 
 # user can only recieve compliment if answer is yes
 while True:
-    answer = input("Would you like a compliment? ").lower()
+    answer = input("Would you like a compliment? ")
 
     if answer == "yes":
         print("You have wonderful eyes.")
         break
     elif answer == "no":
         break
-    else:
-        print("Please type yes or no.")
+    elif answer == "Yes":
+        break
 
 print("Thank you for playing.")
 
