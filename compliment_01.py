@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Makenna Raspantini
+# DATE: 3/15/2026
+# BRIEF DESCRIPTION:  Giving the user a compliment depending on their response. 
 
 
 
@@ -15,8 +15,19 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+# user can only recieve compliment if answer is yes
+while True:
+    answer = input("Would you like a compliment? ").lower()
 
+    if answer == "yes":
+        print("You have wonderful eyes.")
+        break
+    elif answer == "no":
+        break
+    else:
+        print("Please type yes or no.")
 
+print("Thank you for playing.")
 
 
 
@@ -67,12 +78,15 @@ Thank you for playing.
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
 
+8; hard but not impossible, I had to consult my notes a lot and get some help from a 
+friend who is familiar with Python. 
 
 
 
 2. What was the hardest part of this lab?
 
-
+Knowing the proper function and stringing it all together is the hardest part, the output
+can be completely different otherwise if the input isn't correct.
 
 
 
